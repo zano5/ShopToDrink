@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ShopToDrink</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="facebook_app_id">1877398059156145</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_delivery">Map</string>
+    <string name="order_success_text">Successfully made order</string>
+    <string name="empty_cart_text">You cart is empty</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_surname">Enter Surname</string>
+    <string name="enter_id_number">Enter ID Number</string>
+    <string name="enter_cellphone_number">Enter Cellphone Number</string>
+    <string name="store_distance_text">Store Distance:</string>
+    <string name="item_price_text">Item Price:</string>
+    <string name="delivery_fee_text">Delivery Fee:</string>
+    <string name="total_text">Total:</string>
+    <string name="runtime_permissions_txt">Allow Application to Enable Location Services</string>
+    <string name="shop_dialog_message">Do you want to view the shop catalogue</string>
+
+
+    <string-array name="options_catalogue_array">
+        <item></item>
+        <item>All</item>
+        <item>Catogory</item>
+    </string-array>
+
+
+    <string-array name="store_distance_array">
+        <item>3 KM</item>
+        <item>5 KM</item>
+        <item>7 KM</item>
+        <item>10 KM</item>
+        <item>15 KM</item>
+        <item>20 KM</item>
+    </string-array>
+    <string name="title_activity_near_map_store">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

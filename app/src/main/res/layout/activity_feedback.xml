@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.codetribe.shoptodrink.FeedbackActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:hint="Subject"
+        android:id="@+id/etSubject"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.10"
+        android:inputType="text" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:hint="comment"
+
+        android:layout_below="@id/etSubject"
+        android:id="@+id/etComment"
+        android:layout_weight="0.45"
+        android:inputType="textMultiLine" >
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:onClick="onSubmit"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+       />
+</LinearLayout>

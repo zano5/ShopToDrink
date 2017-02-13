@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "310754192253",
+    "firebase_url": "https://shoptodrink-a8b22.firebaseio.com",
+    "project_id": "shoptodrink-a8b22",
+    "storage_bucket": "shoptodrink-a8b22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310754192253:android:ec4389dc06520e86",
+        "android_client_info": {
+          "package_name": "za.co.codetribe.shoptodrink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310754192253-jps0toopjdgifmmfj9siojuk37c6oeur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.codetribe.shoptodrink",
+            "certificate_hash": "D7BAAE866056133A73D24B65DAD0B9878763626A"
+          }
+        },
+        {
+          "client_id": "310754192253-tghsq9hqq0l72et7ij6d9cnom3ab0oeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi-y7UQz7lxI7WneL0l_zDql9YWmeCBR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310754192253-tghsq9hqq0l72et7ij6d9cnom3ab0oeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
